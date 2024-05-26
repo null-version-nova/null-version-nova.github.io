@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>org.lwjgl</groupId>
-  <artifactId>plugin</artifactId>
+  <groupId>nullversionnova</groupId>
+  <artifactId>lwjgl-plugin</artifactId>
   <versioning>
     <latest>0.0.34</latest>
     <release>0.0.34</release>
