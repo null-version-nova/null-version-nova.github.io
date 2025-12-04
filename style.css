@@ -2,10 +2,12 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
 body {
-    background-color: #3a1522;
+    background-color: #1d0a11;
     color: white;
-    font-family: Verdana;
+    font-family: 'Fira Mono', monospace;
     max-width: 1060px;
     margin-inline: auto;
 
@@ -24,4 +26,27 @@ a {
 
 a:hover {
     color: #8dd6bc;
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+}
+
+.navlist__link-container {
+    list-style: none;
+}
+
+.navbar__link {
+    padding: 0 10px;
+}
+
+.navbar__link-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.1rem;
+}
+
+.navlist__link {
+    list-style: "> ";
 }
