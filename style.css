@@ -5,15 +5,9 @@
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 body {
-    background-color: #1d0a11;
+    background-color: #24191d;
     color: white;
     font-family: 'Fira Mono', monospace;
-    max-width: 1060px;
-    margin-inline: auto;
-
-    /* Fix height */
-    padding-block: 1px;
-    margin-block: 0;
 }
 
 h1 {
@@ -22,6 +16,7 @@ h1 {
 
 a {
     color: #3cce9b;
+
 }
 
 a:hover {
@@ -44,7 +39,12 @@ code {
     display: flex;
     flex-direction: row;
     list-style: none;
+    justify-content: center;
     gap: 1.1rem;
+}
+
+.navlist__link-container {
+    margin-left: 20px;
 }
 
 .navlist__link {
