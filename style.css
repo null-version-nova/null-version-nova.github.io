@@ -1,12 +1,31 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+:root {
+    --clr-ice-base: #0d1212;
+    --clr-ice-deep: #0048ca;
+    --clr-ice-bright: #43c0d4;
+    --clr-ice-light: #9bdae4;
+    --clr-star-base: #15121a;
+    --clr-star-deep: #5827a9;
+    --clr-star-bright: #a383d8;
+    --clr-star-light: #c6aaf3;
+    --clr-mint-base: #161916;
+    --clr-mint-deep: #00c264;
+    --clr-mint-bright: #3cce9b;
+    --clr-mint-light: #8dd6bc;
+    --clr-rose-base: #24191d;
+    --clr-rose-deep: #e2003a;
+    --clr-rose-bright: #ce3c6f;
+    --clr-rose-light: #ff7799;
+    --clr-steel-base: #222034;
+    --clr-steel-deep: #595652;
+    --clr-steel-bright: #d5d5d5;
+    --clr-steel-light: #e5fffe;
+}
 
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 body {
-    background-color: #24191d;
-    color: white;
+    background-color: var(--clr-rose-base);
+    color: var(--clr-steel-light);
     font-family: 'Fira Mono', monospace;
 }
 
@@ -14,13 +33,17 @@ h1 {
     text-align: center;
 }
 
+hr {
+    color: var(--clr-steel-deep);
+}
+
 a {
-    color: #3cce9b;
+    color: var(--clr-mint-bright);
 
 }
 
 a:hover {
-    color: #8dd6bc;
+    color: var(--clr-mint-light);
 }
 
 code {
@@ -31,7 +54,7 @@ code {
     list-style: none;
 }
 
-.navbar__link {
+i .navbar__link {
     padding: 0 10px;
 }
 
