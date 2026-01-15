@@ -27,6 +27,8 @@ body {
     background-color: var(--clr-rose-base);
     color: var(--clr-steel-light);
     font-family: 'Fira Mono', monospace;
+    max-width: 1060px;
+    margin-inline: auto;
 }
 
 h1 {
