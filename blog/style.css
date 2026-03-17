@@ -1,4 +1,4 @@
-@import "colorschemes/mirthlight.css";
+@import "../colorschemes/cosmos.css";
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 body {
@@ -41,7 +41,7 @@ i .navbar__link {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1.1rem;
 }
 

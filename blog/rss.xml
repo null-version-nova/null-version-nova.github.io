@@ -1,0 +1,15 @@
+<rss version="2.0">
+    <channel>
+        <title>Many-Named Angel's Blog</title>
+        <link>https://null-version-nova.github.io/blog/</link>
+        <description>Blog of the Many-Named Angel</description>
+        <item>
+            <title>Inaugural Address</title>
+            <link>https://null-version-nova.github.io/blog/2026-03-17/</link>
+            <description>
+                an introductory post, musings about what a blog does for me
+            </description>
+            <pubDate>Tue, 17 Mar 2026 16:18:00 -0600</pubDate>
+        </item>
+    </channel>
+</rss>
