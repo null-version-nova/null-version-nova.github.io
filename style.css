@@ -7,6 +7,7 @@ body {
     font-family: 'Fira Mono', monospace;
     max-width: 1060px;
     margin-inline: auto;
+    padding: 2em;
 }
 
 h1 {
