@@ -39,7 +39,7 @@ code {
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
-    gap: 1.1rem;
+    padding-left: 0em;
 }
 
 .navbar__spread {

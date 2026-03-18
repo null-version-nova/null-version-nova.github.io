@@ -40,6 +40,7 @@ code {
     list-style: none;
     justify-content: center;
     gap: 1.1rem;
+    padding-left: 0em;
 }
 
 .navbar__spread {
