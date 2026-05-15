@@ -3,7 +3,7 @@
 :root {
     --clr-background: var(--clr-rose-base);
     --clr-text: var(--clr-steel-light);
-    --clr-subtext: var(--clr-steel-deep);
+    --clr-subtext: var(--clr-steel-bright);
     --clr-link: var(--clr-mint-bright);
     --clr-link-highlight: var(--clr-mint-light);
 }
