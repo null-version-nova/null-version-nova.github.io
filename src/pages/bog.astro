@@ -1,0 +1,20 @@
+---
+const { title } = Astro.props;
+import "../styles/main.css"
+---
+<html lang="en">
+<head>
+    <title>{title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href={"/favicon.ico"}>
+    </head>
+    <body>
+        <figure>
+        <img src="/assets/images/bog.png" alt="A low resolution picture of a bog.">
+        <figcaption>
+            By <a href="//commons.wikimedia.org/wiki/User:Roquai" title="User:Roquai">Roquai</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=4160405">Link</a>
+        </figcaption>
+        </figure>
+        <p>perhaps you meant to go to the <a href="/blog">blog</a> instead?</p>
+    </body>
+</html>
