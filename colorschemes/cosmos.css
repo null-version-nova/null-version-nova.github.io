@@ -1,9 +1,0 @@
-@import "colors.css";
-
-:root {
-    --clr-background: var(--clr-star-base);
-    --clr-text: var(--clr-steel-light);
-    --clr-subtext: var(--clr-steel-deep);
-    --clr-link: var(--clr-ice-bright);
-    --clr-link-highlight: var(--clr-ice-light);
-}
