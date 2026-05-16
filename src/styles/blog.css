@@ -1,0 +1,93 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+:root {
+    --clr-ice-base: #202534;
+    --clr-ice-deep: #007d91;
+    --clr-ice-bright: #43c0d4;
+    --clr-ice-light: #9bdae4;
+    --clr-star-base: #261533;
+    --clr-star-deep: #6f27a9;
+    --clr-star-bright: #a383d8;
+    --clr-star-light: #c6aaf3;
+    --clr-mint-base: #182f18;
+    --clr-mint-deep: #00c264;
+    --clr-mint-bright: #3cce9b;
+    --clr-mint-light: #8dd6bc;
+    --clr-rose-base: #24191d;
+    --clr-rose-deep: #e2003a;
+    --clr-rose-bright: #ce3c6f;
+    --clr-rose-light: #ff7799;
+    --clr-gold-base: #2a2014;
+    --clr-gold-deep: #ffda41;
+    --clr-gold-bright: #ffdf8d;
+    --clr-gold-light: #eeebb2;
+    --clr-steel-base: #15121a;
+    --clr-steel-deep: #1f1e26;
+    --clr-steel-mid: #828e9d;
+    --clr-steel-bright: #c2d0d5;
+    --clr-steel-light: #e5fffe;
+}
+:root {
+    --clr-background: var(--clr-steel-base);
+    --clr-text: var(--clr-steel-light);
+    --clr-subtext: var(--clr-steel-mid);
+    --clr-link: var(--clr-ice-bright);
+    --clr-link-highlight: var(--clr-ice-light);
+}
+
+body {
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+    font-family: 'Fira Mono', monospace;
+    max-width: 1060px;
+    margin-inline: auto;
+    padding-inline: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: var(--clr-subtext);
+}
+
+a {
+    color: var(--clr-link);
+}
+
+a:hover {
+    color: var(--clr-link-highlight);
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+}
+
+.navlist__link-container {
+    list-style: none;
+}
+
+.navbar__link-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0em;
+}
+
+.navbar__spread {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1.1rem;
+}
+
+.navlist__link-container {
+    margin-left: 20px;
+}
+
+.navlist__link {
+    list-style: "> ";
+}
