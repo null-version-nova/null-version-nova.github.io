@@ -1,0 +1,31 @@
+---
+import type Link from "../types/link";
+
+interface Props {
+    links: Link[];
+}
+
+const { links } = Astro.props;
+
+function isActive(href: string): boolean {
+    if (href === "/") return Astro.url.pathname === "/";
+    return Astro.url.pathname.startsWith(href);
+}
+---
+
+<nav class="navbar">
+    <ul class="navbar__link-container navbar__link-container--no-style">
+        {
+            links.map((link) => (
+                <li>
+                    <a
+                        class={`navbar__link ${isActive(link.href) ? "navbar__link--active" : ""}`}
+                        href={link.href}
+                    >
+                        {link.label}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</nav>
