@@ -64,6 +64,11 @@ code {
     font-family: 'Fira Code', monospace;
 }
 
+subtext {
+    font-size: smaller;
+    color: var(--clr-subtext);
+}
+
 .navlist__link-container {
     list-style: none;
 }
