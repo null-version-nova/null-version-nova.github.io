@@ -108,23 +108,6 @@ import BaseLayout from "../layouts/base.astro";
     </nav>
     <hr />
     <footer>
-        <div class="container space-around">
-            <div>
-                <a
-                    href="https://webring.queercoded.dev/prev?source=null-version-nova.github.io"
-                >
-                    previous
-                </a>
-            </div>
-            <div>Queer Coded Webring</div>
-            <div>
-                <a
-                    href="https://webring.queercoded.dev/next?source=null-version-nova.github.io"
-                >
-                    next
-                </a>
-            </div>
-        </div>
         <link
             rel="stylesheet"
             href="https://nayz.neocities.org/onionring/onionring.css"
@@ -146,6 +129,24 @@ import BaseLayout from "../layouts/base.astro";
                 type="text/javascript"
                 src="https://nayz.neocities.org/onionring/onionring-widget.js"
             ></script>
+        </div>
+        <div id="qc-webring-footer">
+            <a
+                href="https://webring.queercoded.dev/prev?source=null-version-nova.github.io"
+            >
+                <img src="https://queercoded.dev/modern-prev-green.png" />
+            </a>
+            <a href="https://webring.queercoded.dev/">
+                <img
+                    src="https://queercoded.dev/Queer_Coded_Webring.png"
+                    alt="Queer Coded Webring"
+                />
+            </a>
+            <a
+                href="https://webring.queercoded.dev/next?source=null-version-nova.github.io"
+            >
+                <img src="https://queercoded.dev/modern-next-green.png" />
+            </a>
         </div>
     </footer>
 </BaseLayout>

@@ -103,3 +103,23 @@ figcaption {
 .navlist__link {
     list-style: "> ";
 }
+
+#qc-webring-footer {
+    display: flex;
+    flex-direction: row;
+    height: 10vmin;
+    justify-content: space-between;
+    padding: 3vmin;
+}
+
+#qc-webring-footer a {
+    transition: transform .5s ease-in-out;
+}
+
+#qc-webring-footer a:hover {
+    transform: scale(1.05);
+}
+
+#qc-webring-footer img {
+    height: 10vmin;
+}
