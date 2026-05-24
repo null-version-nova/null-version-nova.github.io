@@ -27,6 +27,7 @@
     --clr-steel-bright: #c2d0d5;
     --clr-steel-light: #e5fffe;
 }
+
 :root {
     --clr-background: var(--clr-steel-base);
     --clr-text: var(--clr-steel-light);
@@ -67,6 +68,11 @@ code {
 figcaption {
     color: var(--clr-subtext);
     font-size: small;
+}
+
+.container.space-around {
+    display: flex;
+    justify-content: space-around;
 }
 
 .navlist__link-container {
