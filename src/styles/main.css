@@ -123,3 +123,8 @@ figcaption {
 #qc-webring-footer img {
     height: 10vmin;
 }
+
+subtext {
+    font-size: smaller;
+    color: var(--clr-subtext);
+}

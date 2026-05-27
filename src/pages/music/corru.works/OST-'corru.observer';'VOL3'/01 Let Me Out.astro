@@ -1,9 +1,14 @@
 ---
-import Music from "../../../../layouts/music.astro";
 import BandcampEmbed from "../../../../components/bandcamp-embed.astro";
+import Music from "../../../../layouts/subpage.astro";
 ---
 
-<Music title="Let Me Out">
-    <BandcampEmbed><a href="https://corruworks.bandcamp.com/album/ost-corru-observer-vol-3">OST::&#39;corru.observer&#39;;&#39;VOL 3&#39; by corru.works</a></BandcampEmbed>
+<Music title="Let Me Out" , back="/music">
+    <BandcampEmbed
+        ><a
+            href="https://corruworks.bandcamp.com/album/ost-corru-observer-vol-3"
+            >OST::&#39;corru.observer&#39;;&#39;VOL 3&#39; by corru.works</a
+        ></BandcampEmbed
+    >
     <p></p>
 </Music>
