@@ -1,0 +1,16 @@
+---
+const { title } = Astro.props;
+import "../styles/main.css";
+---
+
+<html lang="en">
+    <head>
+        <title>{title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href={"/favicon.ico"} />
+    </head>
+    <body>
+        <p>i think you got lost, but fortunately, i am an angel</p>
+        <p><a href="/">i will show you the way back</a></p>
+    </body>
+</html>
