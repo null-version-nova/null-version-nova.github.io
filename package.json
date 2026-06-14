@@ -22,6 +22,7 @@
   "homepage": "https://github.com/null-version-nova/null-version-nova.github.io#readme",
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
-    "astro": "^2.4.5"
+    "astro": ">=6.1.10",
+    "esbuild": ">=0.28.0"
   }
 }
